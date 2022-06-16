@@ -1,0 +1,19 @@
+.overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../../assets/../assets/img/footer/euro-bg-footer.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 551px;
+  color: black;
+  background-size: cover;
+  padding-top: 150px;
+}
+.reserved {
+  padding-top: 150px;
+  font-size: small;
+}
+.footer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

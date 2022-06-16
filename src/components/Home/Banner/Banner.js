@@ -1,9 +1,10 @@
 import React from "react";
+import image from "../../../assets/img/banner/banner_1.jpg";
 
 const Banner = () => {
   return (
-    <div>
-      <h2>This is Banner</h2>
+    <div className="container">
+      <img src={image} alt="" className="img-fluid" />
     </div>
   );
 };
