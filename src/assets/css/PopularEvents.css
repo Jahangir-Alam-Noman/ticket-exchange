@@ -1,3 +1,20 @@
 .popular_events h2 {
   color: #221d5d;
 }
+.popular_events .fa-clock-o,
+.time {
+  color: #007bff;
+}
+.country_vs {
+  font-size: 20px;
+  color: #be1e2d;
+  font-weight: 400;
+}
+.cup,
+.fa-map-marker,
+.fa-globe {
+  color: #221d5d;
+}
+.buy_button {
+  background-color: #221d5d;
+}
