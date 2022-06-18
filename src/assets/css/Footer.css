@@ -1,6 +1,5 @@
 .overlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../../assets/../assets/img/footer/euro-bg-footer.png");
+  background: url("../../assets/../assets/img/footer/euro-bg-footer.png");
   background-repeat: no-repeat;
   background-position: center center;
   height: 551px;
