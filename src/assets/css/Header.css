@@ -1,0 +1,123 @@
+/** @format */
+.bg-custom {
+  background-color: #004271;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #ffff;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link:hover {
+  background-color: #be1e2d;
+  margin: 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #80a1b8;
+  font-weight: 600;
+  font-size: 12px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #be1e2d;
+}
+.navbar {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+.number {
+  font-size: 20px;
+  color: #d3d3d3;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+/* Second part */
+.main-search {
+  background: linear-gradient(to bottom, #fefefe 0%, #efefef 100%);
+  border-radius: 100px;
+  border: 1px solid #cdd4dd;
+  padding: 10px 50px 10px 20px;
+  position: relative;
+  margin-top: 9px;
+}
+
+.btn-circle.btn-xl {
+  width: 50px;
+  height: 50px;
+  padding: 10px 13px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+.btn-top-search {
+  background: #be1e2d !important;
+}
+.btn-top-search {
+  position: absolute;
+  top: 3px;
+  right: 11px;
+  /*   background: #00a651;
+  background: -moz-linear-gradient(-45deg, #00a651 0%, #cc0000 100%);
+  background: -webkit-linear-gradient(-45deg, #00a651 0%, #00a651 100%);
+  background: linear-gradient(135deg, #00a651 0%, #00a651 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a651', endColorstr='#00a651',GradientType=1 ); */
+  color: #fff;
+}
+
+/* 3rd part */
+.header-sub-nav {
+  font-size: 12px;
+  text-align: right;
+}
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  /* font-size: 12px; */
+}
+
+h4.top-phone {
+  font-size: 22px;
+  font-weight: bold;
+}
+.header-sub-nav h4 {
+  font-size: 14px;
+  text-align: right;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn-info {
+  color: #fff;
+  background-color: #221d5d;
+  border-color: #221d5d;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.btn-info {
+  color: #fff;
+  background-color: #221d5d;
+  border-color: #221d5d;
+}
+
+.help a {
+  font-size: 13px;
+}
+
+/* ----------- */
+.text-header {
+  color: #be1e2d;
+}
+.header_last {
+  background-color: #004271;
+  border-bottom: 3px solid #be1e2d;
+  font-size: 14px;
+  /* padding: 2px; */
+}

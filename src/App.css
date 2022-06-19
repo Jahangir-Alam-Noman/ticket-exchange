@@ -1,8 +1,15 @@
-/* Home page css  */
+/**
+ * /* Home page css
+ *
+ * @format
+ */
 @import "./assets/css/Banner.css";
 @import "./assets/css/Ticket.css";
 @import "./assets/css/LeftMenu.css";
 @import "./assets/css/PopularEvents.css";
+
+/* Header added */
+@import "./assets/css/Header.css";
 
 /* Footer added */
 @import "./assets/css/Footer.css";

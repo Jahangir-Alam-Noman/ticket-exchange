@@ -1,3 +1,5 @@
+/** @format */
+
 .sideBar {
   height: auto;
   width: 280px;
@@ -29,6 +31,25 @@
   top: 445px;
   left: 370px;
 }
+
+@media all and (max-width: 1600px) {
+  .sideBar_img {
+    position: absolute;
+    top: 360px;
+    left: 330px;
+  }
+  .sideBar_img1 {
+    position: absolute;
+    top: 500px;
+    left: 330px;
+  }
+  .sideBar_img2 {
+    position: absolute;
+    top: 640px;
+    left: 330px;
+  }
+}
+
 .sideBar_head {
   color: #221d5d;
 }
