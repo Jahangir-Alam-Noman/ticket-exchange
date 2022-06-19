@@ -1,0 +1,30 @@
+/** @format */
+.news_feed {
+  /* height: auto; */
+  /* width: 280px; */
+  box-shadow: 0px 0px 20px gainsboro;
+  padding: 15px;
+}
+
+@media all and (max-width: 1600px) {
+  .newsFeed_img {
+    position: absolute;
+    top: 4622px;
+    left: 1147px;
+  }
+}
+
+.newsFeed_head {
+  color: #221d5d;
+  font-weight: 500;
+  margin: 0;
+}
+.newsFeed_text {
+  color: #808080;
+}
+.newsFeed_date {
+  color: #007bff;
+}
+.horizontal {
+  margin: 0px;
+}
