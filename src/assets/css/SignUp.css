@@ -1,0 +1,16 @@
+/** @format */
+.sign_up {
+  padding: 8px;
+  border: 3px solid #be1e2d;
+}
+.signUp_head {
+  color: #be1e2d;
+  font-weight: bold;
+}
+.signUp_btn {
+  background-color: #be1e2d;
+}
+/* .forget_password {
+  border-right: 2px solid gray;
+}
+ */

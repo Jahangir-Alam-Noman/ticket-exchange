@@ -9,6 +9,12 @@
 @import "./assets/css/PopularEvents.css";
 @import "./assets/css/NewsFeed.css";
 
+/* Sign In Page */
+@import "./assets/css/SignIn.css";
+
+/* Sign Up page */
+@import "./assets/css/SignUp.css";
+
 /* Header added */
 @import "./assets/css/Header.css";
 

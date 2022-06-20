@@ -2,6 +2,7 @@
 
 import React from "react";
 import logo from "../../../assets/img/header/tte-624-116.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -23,19 +24,32 @@ const Header = () => {
           </button>
           <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
             <div className='navbar-nav mx-auto'>
-              <a className='nav-link active' aria-current='page' href='#'>
+              {/*   <a className='nav-link active' aria-current='page' href='#'>
                 Home
-              </a>
-              <a className='nav-link' href='#'>
+              </a> */}
+              {/*   <a className='nav-link' href='#'>
                 Sign In
-              </a>
-              <a className='nav-link' href='#'>
+              </a> */}
+              <Link to='/home' className='nav-link active' aria-current='page'>
+                Home
+              </Link>
+              <Link to='/signin' className='nav-link'>
+                Sign In
+              </Link>
+              <Link to='/signup' className='nav-link'>
+                Sign Up
+              </Link>
+              <Link to='/contact' className='nav-link'>
+                Contact Us
+              </Link>
+
+              {/*         <a className='nav-link' href='#'>
                 Sign Up
               </a>
               <a className='nav-link' href='#'>
                 Contact Us
               </a>
-
+ */}
               <select class='' aria-label='Default select example'>
                 <option selected>Open this select menu</option>
                 <option value='1'>One</option>
