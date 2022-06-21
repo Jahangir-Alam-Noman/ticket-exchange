@@ -4,6 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Banner from "../components/Home/Banner/Banner";
 import LeftMenu from "../components/Home/LeftMenu/LeftMenu";
+// import LeftMenu from "../components/Home/LeftMenu/LeftMenu";
 
 const ForgotPass = () => {
   return (
