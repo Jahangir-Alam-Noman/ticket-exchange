@@ -3,7 +3,6 @@
 import React from "react";
 import logo from "../../../assets/img/header/tte-624-116.png";
 import { Link } from "react-router-dom";
-// Header part should be started
 
 const Header = () => {
   return (
@@ -90,8 +89,10 @@ const Header = () => {
             </div>
           </div>
           <div class='col-12 col-sm-4 col-md-4 col-lg-4 help'>
-            <a href='#'>Sign In</a> | <a href='#'>Sign Up</a> |{" "}
-            <a href='#'>Help</a>
+            {/*  <a href='#'>Sign In</a> | <a href='#'>Sign Up</a> |{" "}
+            <a href='#'>Help</a> */}
+            <Link to='/signin'>Sign In</Link> |{" "}
+            <Link to='/signup'>Sign Up</Link> |<Link to='/contact'> Help</Link>
             <h4 class='top-phone'>
               <span class='btn btn-info btn-circle'>
                 <i class='fa fa-phone'></i>

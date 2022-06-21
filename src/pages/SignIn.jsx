@@ -52,7 +52,7 @@ const SignIn = () => {
                 </form>
               </div>
               <div id='emailHelp' class='form-text text-center text-dark p-4'>
-                <Link to='/forgotpass' className='forget_password'>
+                <Link to='/forgotpassword' className='forget_password'>
                   {" "}
                   Forgot Password ? &nbsp;
                 </Link>
