@@ -1,0 +1,27 @@
+.main_ticket_details {
+  border: 1px solid gainsboro;
+  border-top: 3px solid #436fa9;
+  /* border-bottom: 3px solid #436fa9; */
+}
+.main_ticket_details .date {
+  color: #be1e2d;
+}
+.main_ticket_details .text {
+  color: #221d5d;
+}
+
+.main_ticket_details p {
+  margin: 0;
+}
+.main_ticket_details .head {
+  font-weight: bold;
+}
+.main_ticket_details .price {
+  color: #436fa9;
+}
+.main_ticket_details .btn_buy_tickets {
+  background-color: #044e81;
+}
+.main_ticket_details .btn_sell_tickets {
+  background-color: #be1e2d;
+}

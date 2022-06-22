@@ -21,6 +21,10 @@
 /* Footer added */
 @import "./assets/css/Footer.css";
 
+/* Ticket Details */
+@import "./assets/css/TicketDetails.css";
+@import "./assets/css/MainTicketDetails.css";
+
 .App {
   text-align: center;
 }

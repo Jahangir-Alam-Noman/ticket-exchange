@@ -14,293 +14,383 @@ import image12 from "../../../assets/img/category/category_370.jpg";
 import image13 from "../../../assets/img/category/category_371.jpg";
 import image14 from "../../../assets/img/category/category_372.jpg";
 
+import { Link } from "react-router-dom";
+
 const FinalTicket = () => {
   return (
     <div>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
         <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-      </div>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
-        <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
       </div>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
         <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-      </div>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
-        <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
       </div>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
         <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-      </div>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
-        <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
       </div>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
         <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-      </div>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
-        <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
       </div>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
         <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-      </div>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
-        <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
-        </div>
-        <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
       </div>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
         <div className="col ">
-          <img src={image4} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image3} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image2} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
         <div className="col ">
-          <img src={image1} alt="" className="img-fluid" />
-          <div className="fig_caption text-white fw-bold text-center">
-            Champions League Final Tickets
-          </div>
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+      </div>
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+      </div>
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+      </div>
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+      </div>
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+      </div>
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-4">
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image4} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image3} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image2} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
+        </div>
+        <div className="col ">
+          <Link to="/ticketDetails">
+            <img src={image1} alt="" className="img-fluid" />
+            <div className="fig_caption text-white fw-bold text-center">
+              Champions League Final Tickets
+            </div>
+          </Link>
         </div>
       </div>
     </div>
